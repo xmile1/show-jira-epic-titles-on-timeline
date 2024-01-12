@@ -39,11 +39,13 @@ export async function getManifest() {
       'storage',
       'activeTab',
     ],
-    host_permissions: ['*://*/*'],
+    host_permissions: [
+      '*://*.atlassian.net/*',
+    ],
     content_scripts: [
       {
         matches: [
-          '<all_urls>',
+          '*://*.atlassian.net/*',
         ],
         js: [
           'dist/contentScripts/index.global.js',
