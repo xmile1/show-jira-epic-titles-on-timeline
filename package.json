@@ -1,10 +1,10 @@
 {
-  "name": "vitesse-webext",
-  "displayName": "Vitesse WebExt",
-  "version": "0.0.1",
+  "name": "show-jira-epic-title-on-timeline",
+  "displayName": "Show Jira Epic Title on Timeline",
+  "version": "0.1.0",
   "private": true,
   "packageManager": "pnpm@8.3.1",
-  "description": "[description]",
+  "description": "Show Jira Epic Title on Timeline",
   "scripts": {
     "dev": "npm run clear && cross-env NODE_ENV=development run-p dev:*",
     "dev-firefox": "npm run clear && cross-env NODE_ENV=development EXTENSION=firefox run-p dev:*",
